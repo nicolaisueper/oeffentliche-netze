@@ -1,0 +1,18 @@
+<a id="previous-page" *ngIf="!isFirstSlide()" (click)="previousSlide()">&larr;</a>
+<a id="next-page" *ngIf="!isLastSlide()" (click)="nextSlide()">&rarr;</a>
+<div id="app-header">
+    <h1>&Ouml;ffentliche Netze und Dienste</h1>
+    <h2 id="heading">{{currentHeading}}</h2>
+    <hr>
+</div>
+<div class="container-fluid">
+    <div id="main-wrap">
+        <div id="container">
+            <div id="content">
+                <main>
+                    <router-outlet></router-outlet>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>

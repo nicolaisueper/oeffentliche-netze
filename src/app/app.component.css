@@ -1,0 +1,50 @@
+#app-header {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+#previous-page {
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    left: 5%;
+    font-size: 26px;
+}
+
+#previous-page .disabled {
+    visibility: hidden;
+}
+
+#next-page {
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    right: 5%;
+    font-size: 26px;
+}
+
+#main-wrap {
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    width: 100%;
+    overflow: auto;
+}
+
+#container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#content {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+#heading {
+    color: #555;
+}
